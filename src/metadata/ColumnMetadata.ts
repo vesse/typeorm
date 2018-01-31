@@ -212,6 +212,11 @@ export class ColumnMetadata {
      */
     transformer?: ValueTransformer;
 
+    /**
+     * Indicates if the column value should be converted to UTC
+     */
+    toUtc?: boolean = true;
+
     // ---------------------------------------------------------------------
     // Constructor
     // ---------------------------------------------------------------------
